@@ -8,6 +8,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding-top:8%;
+    padding-bottom: 8%;
 }
 
 .row {
@@ -16,6 +17,7 @@ body {
     position: relative;
     border:1px solid black;
     padding:80px 0px;
+    width: 100%;
 }
 
 .rectangle {
@@ -37,13 +39,13 @@ body {
     z-index: 222;
 }
 .blue1{
-    left: 15%;
+    left:35%;
 }
 .blue2{
-    left:40%;
+    left:45%;
 }
 .blue3{
-    left:65%;
+    left:56%;
 }
 
 
@@ -96,7 +98,6 @@ body {
     font-size: 1.5em;
     font-weight: bold;
     box-sizing: border-box;
-
 }
 
 .purple2{
@@ -106,22 +107,22 @@ body {
 }
 .pink2{
     position: absolute;
-    left: 30%;
+    left:40%;
     z-index: 6;
 }
 .pink3{
     position: absolute;
-    right: 30%;
+    right: 40%;
     z-index: 1;
 }
 .purple1{
     position: relative;
-    top: -50px;
+    top: -55px;
     z-index: 77;
 }
 .purple3{
     position: relative;
-    top: -50px;
+    top: -55px;
     z-index: 4;
 }
 .pink1{
@@ -135,4 +136,18 @@ body {
     top: -70px;
     right: 70px;
     z-index: 3;
+}
+
+.row:first-child{
+    background-color:red;
+}
+
+.row:last-child{
+    background-color:gray;
+}
+
+.parallax{
+    position: sticky;
+    top:0;
+    width: 100%;
 }
