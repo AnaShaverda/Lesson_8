@@ -1,0 +1,138 @@
+body {
+    background-color: #f5e6e8;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:8%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border:1px solid black;
+    padding:80px 0px;
+}
+
+.rectangle {
+    border-radius: 10px;
+    width:150px;
+    height: 450px;
+    margin: 5px;
+    text-align:center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.blue1,.blue2,.blue3{
+    background-color: blue;
+    position: absolute;
+    top:150px;
+    z-index: 222;
+}
+.blue1{
+    left: 15%;
+}
+.blue2{
+    left:40%;
+}
+.blue3{
+    left:65%;
+}
+
+
+.rectangle:nth-child(2n+1) {
+    background-color: maroon;
+    position: relative;
+    margin-right:50px;
+
+}
+
+
+.rectangle:last-child {
+    margin-right:3px;
+
+}
+
+
+.header{
+    background-color: purple !important;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2222;
+}
+
+.arrow{
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.pink1,.pink2,.pink3,.pink4{
+    background-color: pink!important;
+}
+.purple1,.purple2,.purple3{
+    background-color: purple!important;
+}
+
+.rectangles {
+    border-radius: 10px;
+    width:150px;
+    height: 450px;
+    margin: 5px;
+    text-align:center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-sizing: border-box;
+
+}
+
+.purple2{
+    position: relative;
+    top: 80px;
+    z-index: 3;
+}
+.pink2{
+    position: absolute;
+    left: 30%;
+    z-index: 6;
+}
+.pink3{
+    position: absolute;
+    right: 30%;
+    z-index: 1;
+}
+.purple1{
+    position: relative;
+    top: -50px;
+    z-index: 77;
+}
+.purple3{
+    position: relative;
+    top: -50px;
+    z-index: 4;
+}
+.pink1{
+    position: relative;
+    top: -70px;
+    left: 70px;
+    z-index: 177;
+}
+.pink4{
+    position: relative;
+    top: -70px;
+    right: 70px;
+    z-index: 3;
+}
